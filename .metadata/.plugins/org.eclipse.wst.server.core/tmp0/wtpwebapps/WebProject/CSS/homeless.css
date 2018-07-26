@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: tahoma;  
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);/*rgba is for the color(Red, Green, Blue, with a .5 opacity)*/
+    z-index: 99;
+    text-align: center; /*centers the navigation text*/
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    line-height: 50px; /*because our navigation is 50 pixils*/
+}
+
+nav a:hover{
+    color: #46CFC9;
+    border-bottom: 2px solid #46CFC9;
+    transition: all 0.2s ease-in;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+	font-size:25px;
+	
+}
+.welcome{
+    
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left:50%; 
+    transform: translate(-50%, -50%);
+}
+
+.mainpic{ 
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/Homeless.jpg);
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn{
+    border: 1px solid #46CFC9; 
+    padding: 10px 30px;
+    color: #46CFC9;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.btns{
+    margin-top: 50px;
+}
+
+.buttonOne:hover{
+    background-color: #46CFC9;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.buttonTwo:hover{
+    background-color: #46CFC9;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+h3:after{ 
+    width: 100px;
+    height: 2px; 
+    background-color: #46CFC9;
+    display: block;
+    content: "";
+    margin:0 auto;
+    margin-top: 30px; 
+    
+}
+
+.features h3{ 
+    margin-top: 60px;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+.features p{
+    margin-bottom: 80px; 
+}
+
+.copy{
+    width: 70%; 
+    margin-left: 15%; 
+}
+
+.dog-showcase{
+    list-style-type: none;
+    width: 100%; 
+}
+
+.dog-showcase li{
+    display: block;
+    width:50%; 
+    height: 200px;
+    
+    
+}
+.dog-images-text{
+float:right;
+}
+
+.dog-images{
+	padding:30px;
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.dog-images img{
+    transform: scale(1.15);
+    transition: all 0.2s; 
+    
+}
+
+.dog-images p{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.dog-images img:hover{
+    transform: scale(1.05);
+}
+
+.dogs{
+    margin-top:60px; 
+    background-color: white;
+}
+.boxes{ 
+    margin-top: 60px;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.volunteer{
+	color:#e051a1;
+	margin-bottom:23px;
+	margin-top:12px;
+}
+.organisation{
+	color:#4664b0;
+	margin-bottom:23px;
+	margin-top:12px;
+}
+ul{
+list-style-type: none;
+}
+li{
+list-style-type: none;
+margin-bottom: 15px;;
+}
+
+.box-left{
+border-style:solid; 
+border-width:3px; 
+border-color:#e051a1; 
+display:inline; 
+float:left; 
+width:48%; 
+margin-left:1%;
+}
+.box-right{
+border-style:solid; 
+border-width:3px; 
+border-color:#4664b0; 
+display:inline; 
+float:right; 
+width:48%; 
+margin-right:1%;
+}
+
